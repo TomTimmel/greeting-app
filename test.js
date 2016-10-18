@@ -7,4 +7,8 @@ describe ('testing describe', function(){
 
         assert.equal(greeting, 'hello tester');
     });
+    it('no param in function', function(){
+        var greetingEmpty = greet();
+        assert.equal(greetingEmpty, 'hello undefined');
+    });
 });
