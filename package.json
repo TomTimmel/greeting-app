@@ -1,0 +1,30 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test:watch": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomTimmel/greeting-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomTimmel/greeting-app/issues"
+  },
+  "homepage": "https://github.com/TomTimmel/greeting-app#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "emojic": "^1.1.7"
+  }
+}
